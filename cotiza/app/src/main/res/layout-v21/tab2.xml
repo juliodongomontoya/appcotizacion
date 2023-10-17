@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5sp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblCotizacion" />
+
+            <EditText
+                android:id="@+id/txtnu_coti_deta"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType="number"
+                android:maxLength="15"></EditText>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="false"
+                android:gravity="right"
+                android:text="@string/lblmoneda"
+                tools:ignore="RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/txtco_mone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType="number"
+                android:maxLength="8"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="@string/lblarticulo" />
+
+            <EditText
+                android:id="@+id/txtco_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:hint="@string/txtarticulo_hint"
+                android:inputType="textCapCharacters"
+                android:maxLength="15"
+                android:maxLines="1"></EditText>
+
+            <ImageButton
+                android:id="@+id/btn_buscar_articulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/buscar"
+                android:src="@android:drawable/ic_menu_search"
+                android:background="@android:color/transparent"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/txtde_item_larg"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType="textMultiLine"
+                android:maxLength="100" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblunidad" />
+
+            <EditText
+                android:id="@+id/txtco_unme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType="number"
+                android:maxLength="3"></EditText>
+
+            <EditText
+                android:id="@+id/txtde_unme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType="number"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblalmacen" />
+
+            <EditText
+                android:id="@+id/txtco_alma_detalle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType="number"
+                android:maxLength="3"></EditText>
+
+            <EditText
+                android:id="@+id/txtde_alma_detalle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType=""></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblcantidad" />
+
+            <EditText
+                android:id="@+id/txtca_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:hint="@string/lblcantidad_hint"
+                android:inputType="number|numberDecimal"
+                android:maxLength="17"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblDescto" />
+
+            <EditText
+                android:id="@+id/txtim_dscto_deta"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:hint="@string/dscto_hint"
+                android:inputType="number|numberDecimal"
+                android:maxLength="17"
+                android:enabled="@bool/False"
+                android:focusable="false">
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblconversion" />
+
+            <EditText
+                android:id="@+id/txtca_conv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:hint="@string/lblconversion_hint"
+                android:inputType="number"
+                android:maxLength="17"></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblempaque" />
+
+            <EditText
+                android:id="@+id/txtco_empa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType=""></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblprecio" />
+
+            <EditText
+                android:id="@+id/txtpr_vent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType=""></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblstock" />
+
+            <EditText
+                android:id="@+id/txtca_actu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType=""></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblBloqueo" />
+
+            <EditText
+                android:id="@+id/txtst_bloq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="8"
+                android:enabled="@bool/False"
+                android:focusable="false"
+                android:inputType=""></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblobservacion" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/txtde_obse_deta"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:hint="@string/observacion_hint"
+                android:inputType="textCapCharacters"
+                android:maxLength="100"
+                android:maxLines="1"
+                android:scrollHorizontally="@bool/True" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

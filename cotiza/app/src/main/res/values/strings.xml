@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txtusuario_hint">Ingrese Usuario</string>
+    <string name="txtpassword_hint">Ingrese Contraseña</string>
+    <string name="txtusuario">Usuario</string>
+    <string name="txtpassword">Contraseña</string>
+    <string name="btnvalidar">Iniciar Sesión</string>
+    <string name="app_name">Cotizaciones Cassinelli S.A.</string>
+    <string name="app_lista_cliente">Busqueda de Cliente</string>
+    <string name="app_lista_condicion">Busqueda de Condición</string>
+    <string name="app_lista_articulo">Busqueda de Articulo</string>
+    <string name="app_ingr_datos">Ingreso de Datos</string>
+    <string name="app_ingr_detalle">Ingreso de Detalle</string>
+    <string name="app_ingr_cliente">Ingreso de Cliente</string>
+    <string name="app_busq_master">Busqueda de Codigo Master</string>
+    <string name="app_util_niubiz">Utilitario Niubiz</string>
+    <string name="app_busq_cotiza">Busqueda de Cotización</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblCotizacion">Cotización</string>
+    <string name="lblEstado">Estado</string>
+    <string name="lblCliente">Cliente</string>
+    <string name="lblCondicionV">Condición</string>
+    <string name="lblDescto">Descuento</string>
+    <string name="lblalmacen">Almacén</string>
+    <string name="btn_limpiar">Limpiar</string>
+    <string name="btn_grabar">Grabar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_lan">www.lan.com</string>
+    <string name="lblActivo">ACT</string>
+    <string name="btnCondicionV">Buscar Condición de Venta</string>
+    <string name="vacio"></string>
+    <string name="cotizacion_hint">Ingrese Cotización</string>
+    <string name="cliente_hint">Ingrese Cliente</string>
+    <string name="condicion_hint">Ingrese Condición</string>
+    <string name="dscto_hint">Ing.Dscto.</string>
+    <string name="observacion_hint">Ingrese Observación</string>
+    <string name="codigo">Código</string>
+    <string name="consignacion">Cons.</string>
+    <string name="venta">Venta</string>
+    <string name="central">Centr.</string>
+    <string name="bolsa">Bl.</string>
+    <string name="bloqueado">S</string>
+    <string name="percepcion">Perc.</string>
+    <string name="stpercepcion">S</string>
+    <string name="correlativo">Corr.</string>
+    <string name="descripcionlarga">Piso Celima.</string>
+    <string name="descripcion">Descripción</string>
+    <string name="contentdescriprionlogo">Cassinelli</string>
+    <string name="contentdescriprionseguridad">Seguridad</string>
+    <string name="buscar">Buscar</string>
+    <string name="lblmoneda">Mon.</string>
+    <string name="lblarticulo">Articulo</string>
+    <string name="txtarticulo_hint">Ingrese Articulo</string>
+    <string name="lblunidad">Unidad</string>
+    <string name="lblcantidad">Cantidad</string>
+    <string name="lblcantidad_hint">Ing.Cant.</string>
+    <string name="lblconversion">Conv.</string>
+    <string name="lblconversion_hint">Ing.Conv.</string>
+    <string name="lblempaque">Empaque</string>
+    <string name="lblprecio">Precio</string>
+    <string name="lblstock">Stock</string>
+    <string name="lblrazonsocial">Razón Social</string>
+    <string name="lblnombre_clie">Nombres</string>
+    <string name="lblapellido_pate">Ap.Paterno</string>
+    <string name="lblapellido_mate">Ap.Materno</string>
+    <string name="lblrazonsocial_hint">Ingrese Razón Social</string>
+    <string name="lblnombre_clie_hint">Ingrese Nombres</string>
+    <string name="lblapellido_pate_hint">Ingrese Ap.Paterno</string>
+    <string name="lblapellido_mate_hint">Ingrese Ap.Materno</string>
+    <string name="lbldistrito">Distrito</string>
+    <string name="lbldireccion">Dirección</string>
+    <string name="lbltelefonos">Telefono</string>
+    <string name="lbldniruc">Dni o Ruc</string>
+    <string name="lbldniruc_hint">Ingrese Dni o Ruc</string>
+    <string name="lblemail">Email</string>
+    <string name="lblemail_hint">Ingrese Email</string>
+    <string name="lblpromo">Promoción</string>
+    <string name="lblaretenedor">Retenedor</string>
+    <string name="lblapercepcion">Percepción</string>
+    <string name="lblcriterio">Criterio</string>
+    <string name="lblbusqueda">Busqueda</string>
+    <string name="lblobservacion">Observación</string>
+    <string name="content_eliminar_cotizacion">Eliminar Articulo</string>
+    <string name="lbltotalessoles">Total S/.</string>
+    <string name="lbltotalesdolar">Total $.</string>
+    <string name="lblfe_inicial">Fecha Inicial</string>
+    <string name="lblfe_final">Fecha Final</string>
+    <string name="lblaceptar">Aceptar</string>
+    <string name="lblcancelar">Cancelar</string>
+    <string name="lblpcpercepcion">%Perc.</string>
+    <string name="lblimpercepcion">Percep.</string>
+    <string name="lblMaster">Master</string>
+    <string name="lblBloqueo">Bloqueo</string>
+    <string name="lblOvpend">OV.Pend.</string>
+    <string name="lblPen_desp">P.Desp.</string>
+    <string name="lbloc_pend">OC pend</string>
+    <string name="consultaf10">Consultar Stocks</string>
+    <string name="consultaf11">Articulo/Almacenes (F11)</string>
+    <string name="lbldestinatario">Destinatario</string>
+    <string name="lblasunto">Asunto</string>
+    <string name="lblmensaje">Mensaje</string>
+    <string name="lbldestinatariohint">Ingrese Destinatario</string>
+    <string name="lblasuntohint">Ingrese Asunto</string>
+    <string name="lblmensajehint">Ingrese Mensaje</string>
+    <string name="cliente">Cliente</string>
+
+    <string-array name="criterioarticulo">
+        <item>Descripcion Corta</item>
+        <item>Descripcion Larga</item>
+        <item>Correlativo</item>
+        <item>Master Pack</item>
+    </string-array>
+    <string-array name="criteriomaster">
+        <item>Descripcion</item>
+        <item>Codigo</item>
+    </string-array>
+
+</resources>

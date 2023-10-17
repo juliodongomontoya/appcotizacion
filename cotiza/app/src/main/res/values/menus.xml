@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuLimpiar">Limpiar</string>
+    <string name="menuGrabar">Grabar</string>
+    <string name="menuModificar">Modificar</string>
+    <string name="menuLan">Lan Peru</string>
+    <string name="menuDuplicar">Duplicar</string>
+    <string name="menuConvertir">Convertir Pedido</string>
+    <string name="menuConvertirF">Convertir Documento</string>
+    <string name="menuPago">Pagar Documento</string>
+    <string name="menuAplicaDscto">Aplicar Dscto.</string>
+    <string name="menulista">Listar</string>
+    <string name="menuEliminar">Eliminar</string>
+    <string name="menuNuevo">Nuevo</string>
+    <string name="menuSalir">Salir</string>
+    <string name="menuMaster">Master</string>
+    <string name="menuImprimir">Imprimir</string>
+    <string name="menuAplicarDsctoItem">Aplica Dscto</string>
+    <string name="menuCorreo">Correo</string>
+    <string name="menuEnviarCorreo">Enviar</string>
+    <string name="menuProcesarNiubiz">Procesar</string>
+    <string name="menuUtil">Utilitario Niubiz</string>
+</resources>

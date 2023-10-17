@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuCopiar"
+        android:title="Copiar" />
+    <item
+        android:id="@+id/mnuPegar"
+        android:title="Pegar" />
+    <item
+        android:id="@+id/mnuEliminar"
+        android:title="Eliminar" />
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogruputil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="50dp">
+        <RadioButton
+            android:id="@+id/radioanulacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Anulación"
+            android:layout_marginBottom="20dp"/>
+        <RadioButton
+            android:id="@+id/radiocierre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cierre"
+            android:layout_marginBottom="20dp"/>
+        <RadioButton
+            android:id="@+id/radiocopiavoucher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copia Voucher"
+            android:layout_marginBottom="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radioduplicado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duplicado"
+            android:layout_marginBottom="20dp"/>
+
+
+        <RadioButton
+            android:id="@+id/radioinicializacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicialización"
+            android:layout_marginBottom="20dp"/>
+        <RadioButton
+            android:id="@+id/radioescanear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escánear"
+            android:layout_marginBottom="20dp"/>
+    </RadioGroup>
+
+</LinearLayout>
+
+

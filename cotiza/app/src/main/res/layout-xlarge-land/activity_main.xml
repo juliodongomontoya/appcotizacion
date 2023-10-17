@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="25sp"
+            android:layout_marginTop="15sp"
+            android:contentDescription="@string/contentdescriprionlogo"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/contentdescriprionseguridad"
+                android:src="@drawable/apps_logmeinignition" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#FFFFFF"
+                    android:shadowDx="1"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="@string/txtusuario"
+                    android:textColor="#151414"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <EditText
+                    android:id="@+id/txtUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/txtusuario_hint"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#FFFFFF"
+                    android:shadowDx="1"
+                    android:shadowDy="2"
+                    android:shadowRadius="1.5"
+                    android:text="@string/txtpassword"
+                    android:textColor="#151414"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="@string/txtpassword_hint"
+                    android:inputType="textPassword"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30sp"
+            android:onClick="InicioSesion"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/btnvalidar" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtusuario" />
+
+    <EditText
+        android:id="@+id/txtUsuario1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/txtusuario_hint"
+        android:inputType="textCapCharacters"
+        android:maxLength="15"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:singleLine="@bool/True"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtpassword" />
+
+    <EditText
+        android:id="@+id/txtPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/txtpassword_hint"
+        android:inputType="textPassword"
+        android:maxLength="15"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:singleLine="@bool/True"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
+

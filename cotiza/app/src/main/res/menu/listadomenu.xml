@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuDuplicarCoti"
+        android:title="@string/menuDuplicar"></item>
+
+    <item
+        android:id="@+id/mnuAplicarDsctoItem"
+        android:title="@string/menuAplicarDsctoItem"></item>
+    <item
+        android:id="@+id/mnuConvetir"
+        android:title= "@string/menuConvertir"></item>
+    <item
+        android:id="@+id/mnuConvetirF"
+        android:title= "@string/menuConvertirF"></item>
+    <item
+        android:id="@+id/mnuPago"
+        android:title= "@string/menuPago"></item>
+
+</menu>
